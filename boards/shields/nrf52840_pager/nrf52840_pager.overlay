@@ -48,4 +48,10 @@
         steps = <4>;
         status = "okay";
     };
+
+	sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder0>;
+        triggers-per-rotation = <4>; // エンコーダの1回転のクリック数（パルス数）に合わせて調整
+    };
 };
