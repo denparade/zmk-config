@@ -17,8 +17,8 @@
                 &kp PG_DN    // 6
                 &kp HOME     // 7 ENC_SW
             >;
-            sensor-bindings = <
-                &inc_dec_kp PG_UP PG_DN
+			sensor-bindings = <
+                &inc_dec_msc SCRL_UP SCRL_DOWN
             >;
         };
     };
