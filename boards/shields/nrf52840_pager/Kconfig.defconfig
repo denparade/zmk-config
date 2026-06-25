@@ -1,0 +1,6 @@
+if SHIELD_NRF52840_PAGER
+
+config ZMK_KEYBOARD_NAME
+    default "nRF52840_pager"
+
+endif # SHIELD_NRF52840_PAGER
