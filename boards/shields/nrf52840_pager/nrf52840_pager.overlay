@@ -39,17 +39,17 @@
         >;
     };
 
-    encoders {
-        compatible = "zmk,encoders";
+    // encoders {
+    //     compatible = "zmk,encoders";
 
-        encoder0: encoder0 {
-            compatible = "alps,ec11";
+    //     encoder0: encoder0 {
+    //         compatible = "alps,ec11";
 
-            a-gpios = <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-            b-gpios = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    //         a-gpios = <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    //         b-gpios = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
-            steps = <4>;
-            status = "okay";
-        };
-    };
+    //         steps = <4>;
+    //         status = "okay";
+    //     };
+    // };
 };
