@@ -17,10 +17,10 @@
                 &kp PG_DN    // 6
                 &kp HOME     // 7 ENC_SW
             >;
-            // sensor-bindings = <
-            //     &msc SCRL_UP
-            //     &msc SCRL_DOWN
-            // >;
+            sensor-bindings = <
+                &msc SCRL_UP
+                &msc SCRL_DOWN
+            >;
         };
     };
 };
